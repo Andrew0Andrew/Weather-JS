@@ -44,8 +44,8 @@ body {
     width: 30px;
 }
 .weather_icon {
-    width: 350px;
-    margin-top: 10px;
+    width: 170px;
+    margin-top: 30px;
     margin-left: 0;
 }
 .temp{
@@ -54,10 +54,32 @@ body {
 }
 .city{
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 600;
+    margin-top: -40px;
 }
-.weather_text{
-    margin-top: -60px;
-    font-size: 30px;
-    font-weight: 400;
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right:10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin: 0;
+}
+.col p{
+    margin: 0;
+}
+.weather{
+    display: none;
 }
